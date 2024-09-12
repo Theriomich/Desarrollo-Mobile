@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:background="#FF5722"
+            android:text="Saludador"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="#EDB7A7"
+            android:text="Escriba su Nombre"
+            android:textColor="#FFFFFF"
+            android:textFontWeight="10"
+            android:textSize="26dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#EDB7A7">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="372dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:hint="Michelle"
+                android:outlineAmbientShadowColor="#871B1B"
+                android:outlineSpotShadowColor="#BC2121"
+                android:shadowColor="#A43636"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="194dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="#FF5722"
+                android:gravity="center"
+                android:text="Enviar" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="191dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="200dp"
+                android:background="#908181"
+                android:text="        Hola Michelle"
+                android:textColor="#FAF8F8"
+                android:textColorHighlight="#F4ECEC"
+                android:textColorHint="#F4E5E5"
+                android:textSize="18dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
